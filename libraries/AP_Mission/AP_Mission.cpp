@@ -2379,7 +2379,7 @@ void AP_Mission::increment_jump_times_run(Mission_Command& cmd, bool send_gcs_ms
                 if (cmd.content.jump.num_times == AP_MISSION_JUMP_REPEAT_FOREVER) {
                     GCS_SEND_TEXT(MAV_SEVERITY_INFO, "Mission: %u Jump %i/unlimited", _jump_tracking[i].index, _jump_tracking[i].num_times_run);
                 } else {
-                    GCS_SEND_TEXT(MAV_SEVERITY_INFO, "Mission: %u Jump %i/%i", _jump_tracking[i].index, _jump_tracking[i].num_times_run, cmd.content.jump.num_times);
+                    GCS_SEND_TEXT(MAV_SEVERITY_INFO, "MissionJUHUUUn: %u Jump %i/%i", _jump_tracking[i].index, _jump_tracking[i].num_times_run, cmd.content.jump.num_times);
                 }
             }
             return;
