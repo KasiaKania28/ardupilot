@@ -49,8 +49,8 @@
     # in manual flight. Adjusted to -0.15 gives reasonable flight.
     # CGOffset is in X,Y,Z.
     "CGOffset": [
-        -0.15,
         0.0,
-        -0.05
+        0.0,
+        0.0
     ]
 }
